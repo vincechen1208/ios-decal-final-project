@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9E62316EBBAFA33A7EF315 /* libPods-TravelTainan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */; };
+		AB2420672086B1B900A8C18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420662086B1B900A8C18F /* AppDelegate.swift */; };
+		AB2420692086B1B900A8C18F /* HistoricTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */; };
+		AB24206C2086B1B900A8C18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB24206A2086B1B900A8C18F /* Main.storyboard */; };
+		AB24206E2086B1B900A8C18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB24206D2086B1B900A8C18F /* Assets.xcassets */; };
+		AB2420712086B1B900A8C18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB24206F2086B1B900A8C18F /* LaunchScreen.storyboard */; };
+		AB24207C2086B1BA00A8C18F /* TravelTainanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24207B2086B1BA00A8C18F /* TravelTainanTests.swift */; };
+		AB2420872086B1BA00A8C18F /* TravelTainanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */; };
+		AB2420952086B4B200A8C18F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB2420942086B4B200A8C18F /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2420782086B1BA00A8C18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB24205B2086B1B900A8C18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2420622086B1B900A8C18F;
+			remoteInfo = TravelTainan;
+		};
+		AB2420832086B1BA00A8C18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB24205B2086B1B900A8C18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2420622086B1B900A8C18F;
+			remoteInfo = TravelTainan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F24A7BF1D21BF357BA9AD4 /* Pods-TravelTainan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTainan.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan.release.xcconfig"; sourceTree = "<group>"; };
+		AB2420632086B1B900A8C18F /* TravelTainan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTainan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2420662086B1B900A8C18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricTourViewController.swift; sourceTree = "<group>"; };
+		AB24206B2086B1B900A8C18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB24206D2086B1B900A8C18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2420702086B1B900A8C18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2420722086B1B900A8C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2420772086B1BA00A8C18F /* TravelTainanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTainanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB24207B2086B1BA00A8C18F /* TravelTainanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTainanTests.swift; sourceTree = "<group>"; };
+		AB24207D2086B1BA00A8C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2420822086B1BA00A8C18F /* TravelTainanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTainanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTainanUITests.swift; sourceTree = "<group>"; };
+		AB2420882086B1BA00A8C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2420942086B4B200A8C18F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelTainan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19FD30FF9E08B93947FE2F1 /* Pods-TravelTainan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTainan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2420602086B1B900A8C18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9E62316EBBAFA33A7EF315 /* libPods-TravelTainan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2420742086B1BA00A8C18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB24207F2086B1BA00A8C18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189EF0E125A3DC7724CB8292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB24205A2086B1B900A8C18F = {
+			isa = PBXGroup;
+			children = (
+				AB2420942086B4B200A8C18F /* Podfile */,
+				AB2420652086B1B900A8C18F /* TravelTainan */,
+				AB24207A2086B1BA00A8C18F /* TravelTainanTests */,
+				AB2420852086B1BA00A8C18F /* TravelTainanUITests */,
+				AB2420642086B1B900A8C18F /* Products */,
+				BCBFF981FCB6098A418FD77B /* Pods */,
+				189EF0E125A3DC7724CB8292 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2420642086B1B900A8C18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2420632086B1B900A8C18F /* TravelTainan.app */,
+				AB2420772086B1BA00A8C18F /* TravelTainanTests.xctest */,
+				AB2420822086B1BA00A8C18F /* TravelTainanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2420652086B1B900A8C18F /* TravelTainan */ = {
+			isa = PBXGroup;
+			children = (
+				AB2420662086B1B900A8C18F /* AppDelegate.swift */,
+				AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */,
+				AB24206A2086B1B900A8C18F /* Main.storyboard */,
+				AB24206D2086B1B900A8C18F /* Assets.xcassets */,
+				AB24206F2086B1B900A8C18F /* LaunchScreen.storyboard */,
+				AB2420722086B1B900A8C18F /* Info.plist */,
+			);
+			path = TravelTainan;
+			sourceTree = "<group>";
+		};
+		AB24207A2086B1BA00A8C18F /* TravelTainanTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB24207B2086B1BA00A8C18F /* TravelTainanTests.swift */,
+				AB24207D2086B1BA00A8C18F /* Info.plist */,
+			);
+			path = TravelTainanTests;
+			sourceTree = "<group>";
+		};
+		AB2420852086B1BA00A8C18F /* TravelTainanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */,
+				AB2420882086B1BA00A8C18F /* Info.plist */,
+			);
+			path = TravelTainanUITests;
+			sourceTree = "<group>";
+		};
+		BCBFF981FCB6098A418FD77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD30FF9E08B93947FE2F1 /* Pods-TravelTainan.debug.xcconfig */,
+				A5F24A7BF1D21BF357BA9AD4 /* Pods-TravelTainan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2420622086B1B900A8C18F /* TravelTainan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB24208B2086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainan" */;
+			buildPhases = (
+				1ACA09AF7B733B631B1ECA18 /* [CP] Check Pods Manifest.lock */,
+				AB24205F2086B1B900A8C18F /* Sources */,
+				AB2420602086B1B900A8C18F /* Frameworks */,
+				AB2420612086B1B900A8C18F /* Resources */,
+				7AE061863999345629C3FA17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelTainan;
+			productName = TravelTainan;
+			productReference = AB2420632086B1B900A8C18F /* TravelTainan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2420762086B1BA00A8C18F /* TravelTainanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB24208E2086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainanTests" */;
+			buildPhases = (
+				AB2420732086B1BA00A8C18F /* Sources */,
+				AB2420742086B1BA00A8C18F /* Frameworks */,
+				AB2420752086B1BA00A8C18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2420792086B1BA00A8C18F /* PBXTargetDependency */,
+			);
+			name = TravelTainanTests;
+			productName = TravelTainanTests;
+			productReference = AB2420772086B1BA00A8C18F /* TravelTainanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2420812086B1BA00A8C18F /* TravelTainanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2420912086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainanUITests" */;
+			buildPhases = (
+				AB24207E2086B1BA00A8C18F /* Sources */,
+				AB24207F2086B1BA00A8C18F /* Frameworks */,
+				AB2420802086B1BA00A8C18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2420842086B1BA00A8C18F /* PBXTargetDependency */,
+			);
+			name = TravelTainanUITests;
+			productName = TravelTainanUITests;
+			productReference = AB2420822086B1BA00A8C18F /* TravelTainanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB24205B2086B1B900A8C18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vincent Chen";
+				TargetAttributes = {
+					AB2420622086B1B900A8C18F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB2420762086B1BA00A8C18F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB2420622086B1B900A8C18F;
+					};
+					AB2420812086B1BA00A8C18F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB2420622086B1B900A8C18F;
+					};
+				};
+			};
+			buildConfigurationList = AB24205E2086B1B900A8C18F /* Build configuration list for PBXProject "TravelTainan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB24205A2086B1B900A8C18F;
+			productRefGroup = AB2420642086B1B900A8C18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2420622086B1B900A8C18F /* TravelTainan */,
+				AB2420762086B1BA00A8C18F /* TravelTainanTests */,
+				AB2420812086B1BA00A8C18F /* TravelTainanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2420612086B1B900A8C18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2420712086B1B900A8C18F /* LaunchScreen.storyboard in Resources */,
+				AB24206E2086B1B900A8C18F /* Assets.xcassets in Resources */,
+				AB2420952086B4B200A8C18F /* Podfile in Resources */,
+				AB24206C2086B1B900A8C18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2420752086B1BA00A8C18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2420802086B1BA00A8C18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ACA09AF7B733B631B1ECA18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelTainan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE061863999345629C3FA17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB24205F2086B1B900A8C18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2420692086B1B900A8C18F /* HistoricTourViewController.swift in Sources */,
+				AB2420672086B1B900A8C18F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2420732086B1BA00A8C18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB24207C2086B1BA00A8C18F /* TravelTainanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB24207E2086B1BA00A8C18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2420872086B1BA00A8C18F /* TravelTainanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2420792086B1BA00A8C18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2420622086B1B900A8C18F /* TravelTainan */;
+			targetProxy = AB2420782086B1BA00A8C18F /* PBXContainerItemProxy */;
+		};
+		AB2420842086B1BA00A8C18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2420622086B1B900A8C18F /* TravelTainan */;
+			targetProxy = AB2420832086B1BA00A8C18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB24206A2086B1B900A8C18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB24206B2086B1B900A8C18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB24206F2086B1B900A8C18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2420702086B1B900A8C18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2420892086B1BA00A8C18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB24208A2086B1BA00A8C18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB24208C2086B1BA00A8C18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19FD30FF9E08B93947FE2F1 /* Pods-TravelTainan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K262LBA4B;
+				INFOPLIST_FILE = TravelTainan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB24208D2086B1BA00A8C18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F24A7BF1D21BF357BA9AD4 /* Pods-TravelTainan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K262LBA4B;
+				INFOPLIST_FILE = TravelTainan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB24208F2086B1BA00A8C18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelTainanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelTainan.app/TravelTainan";
+			};
+			name = Debug;
+		};
+		AB2420902086B1BA00A8C18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelTainanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelTainan.app/TravelTainan";
+			};
+			name = Release;
+		};
+		AB2420922086B1BA00A8C18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelTainanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelTainan;
+			};
+			name = Debug;
+		};
+		AB2420932086B1BA00A8C18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelTainanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vincent.TravelTainanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelTainan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB24205E2086B1B900A8C18F /* Build configuration list for PBXProject "TravelTainan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2420892086B1BA00A8C18F /* Debug */,
+				AB24208A2086B1BA00A8C18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB24208B2086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB24208C2086B1BA00A8C18F /* Debug */,
+				AB24208D2086B1BA00A8C18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB24208E2086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB24208F2086B1BA00A8C18F /* Debug */,
+				AB2420902086B1BA00A8C18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2420912086B1BA00A8C18F /* Build configuration list for PBXNativeTarget "TravelTainanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2420922086B1BA00A8C18F /* Debug */,
+				AB2420932086B1BA00A8C18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB24205B2086B1B900A8C18F /* Project object */;
+}
