@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/ashley/Desktop/CokeChen/iOSDecal/ios-decal-final-project/TravelTainan/TravelTainan/HistoricSiteTableViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:TravelTainan.xcodeproj">
    </FileRef>
    <FileRef

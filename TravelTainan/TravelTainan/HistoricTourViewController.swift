@@ -26,7 +26,7 @@ class HistoricTourViewController: UIViewController {
     
     var currentDestination: HistoricSiteDestination?
     
-    let destinations = [HistoricSiteDestination(name: "Confucius Temple", location: CLLocationCoordinate2D(latitude: 22.990467, longitude: 120.204307)), HistoricSiteDestination(name: "Grand Matsu Temple", location: CLLocationCoordinate2D(latitude: 22.996678, longitude: 120.201542)), HistoricSiteDestination(name: "Temple of the Five Concubines", location: CLLocationCoordinate2D(latitude: 22.9816674, longitude: 120.204516)), HistoricSiteDestination(name: "Zheng Chenggong Shrine", location: CLLocationCoordinate2D(latitude: 22.987819, longitude: 120.207764))]
+    let destinations = [HistoricSiteDestination(name: "Confucius Temple", location: CLLocationCoordinate2D(latitude: 22.990467, longitude: 120.204307)), HistoricSiteDestination(name: "Grand Matsu Temple", location: CLLocationCoordinate2D(latitude: 22.996678, longitude: 120.201542)), HistoricSiteDestination(name: "Temple of the Five Concubines", location: CLLocationCoordinate2D(latitude: 22.9816674, longitude: 120.204516)), HistoricSiteDestination(name: "Zheng Chenggong Shrine", location: CLLocationCoordinate2D(latitude: 22.987819, longitude: 120.207764)), HistoricSiteDestination(name: "Anping Old Fort", location: CLLocationCoordinate2D(latitude: 23.001549, longitude: 120.160624)), HistoricSiteDestination(name: "Eternal Golden Castle", location: CLLocationCoordinate2D(latitude: 22.987932, longitude: 120.159244))]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class HistoricTourViewController: UIViewController {
         GMSServices.provideAPIKey("AIzaSyDVXHP_kVTT3B25AbGn-whzkFgmzBAm9Rg")
         
         let coord = CLLocationCoordinate2D(latitude: 23.010228, longitude: 120.202547)
-        let camera = GMSCameraPosition.camera(withTarget: coord, zoom: 15)
+        let camera = GMSCameraPosition.camera(withTarget: coord, zoom: 12)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         
         self.view = mapView
@@ -43,7 +43,7 @@ class HistoricTourViewController: UIViewController {
             let marker = GMSMarker()
             marker.position = dest.location
             marker.title = dest.name
-            marker.snippet = "Historic Site"
+            marker.snippet = "First Class National Historic Site"
             marker.map = mapView
         }
         

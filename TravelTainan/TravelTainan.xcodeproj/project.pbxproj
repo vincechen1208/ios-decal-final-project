@@ -16,6 +16,7 @@
 		AB24207C2086B1BA00A8C18F /* TravelTainanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24207B2086B1BA00A8C18F /* TravelTainanTests.swift */; };
 		AB2420872086B1BA00A8C18F /* TravelTainanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */; };
 		AB2420952086B4B200A8C18F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB2420942086B4B200A8C18F /* Podfile */; };
+		AB736A71208AEDBE00ED191B /* HistoricSiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTainanUITests.swift; sourceTree = "<group>"; };
 		AB2420882086B1BA00A8C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2420942086B4B200A8C18F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoricSiteTableViewController.swift; path = "/Users/ashley/Desktop/CokeChen/iOSDecal/ios-decal-final-project/TravelTainan/TravelTainan/HistoricSiteTableViewController.swift"; sourceTree = "<absolute>"; };
 		C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelTainan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19FD30FF9E08B93947FE2F1 /* Pods-TravelTainan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTainan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 			children = (
 				AB2420662086B1B900A8C18F /* AppDelegate.swift */,
 				AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */,
+				AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */,
 				AB24206A2086B1B900A8C18F /* Main.storyboard */,
 				AB24206D2086B1B900A8C18F /* Assets.xcassets */,
 				AB24206F2086B1B900A8C18F /* LaunchScreen.storyboard */,
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB736A71208AEDBE00ED191B /* HistoricSiteTableViewController.swift in Sources */,
 				AB2420692086B1B900A8C18F /* HistoricTourViewController.swift in Sources */,
 				AB2420672086B1B900A8C18F /* AppDelegate.swift in Sources */,
 			);
