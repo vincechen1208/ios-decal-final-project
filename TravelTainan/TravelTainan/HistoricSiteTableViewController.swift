@@ -19,7 +19,7 @@ class HistoricSiteTableViewController: UIViewController, UITableViewDelegate, UI
     var siteArray = [HistoricSiteDestination(name: "Chikan Tower", location: CLLocationCoordinate2D(latitude: 22.997484, longitude: 120.202546)), HistoricSiteDestination(name: "Confucius Temple", location: CLLocationCoordinate2D(latitude: 22.990467, longitude: 120.204307)), HistoricSiteDestination(name: "Grand Matsu Temple", location: CLLocationCoordinate2D(latitude: 22.996678, longitude: 120.201542)), HistoricSiteDestination(name: "Temple of the Five Concubines", location: CLLocationCoordinate2D(latitude: 22.9816674, longitude: 120.204516)), HistoricSiteDestination(name: "Zheng Chenggong Shrine", location: CLLocationCoordinate2D(latitude: 22.987819, longitude: 120.207764)), HistoricSiteDestination(name: "Anping Old Fort", location: CLLocationCoordinate2D(latitude: 23.001549, longitude: 120.160624)), HistoricSiteDestination(name: "Eternal Golden Castle", location: CLLocationCoordinate2D(latitude: 22.987932, longitude: 120.159244))]
     var siteImages: [UIImage] = [UIImage(named:"cktower1")!, UIImage(named:"ctemple")!, UIImage(named:"matsu")!, UIImage(named:"wufei")!, UIImage(named:"chengshrine")!, UIImage(named:"anping")!, UIImage(named:"goldcastle")!]
     var selectedIndexPath: IndexPath?
-    let cellHeight:CGFloat = 180
+    let cellHeight:CGFloat = 280
     
     override func viewDidLoad() {
         super.viewDidLoad()
