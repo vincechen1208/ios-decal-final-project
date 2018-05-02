@@ -15,9 +15,11 @@ class HistoricSiteTableCell :UITableViewCell {
 }
 
 class HistoricSiteTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet var tableView: UITableView!
-    var siteArray = [HistoricSiteDestination(name: "Chikan Tower", location: CLLocationCoordinate2D(latitude: 22.997484, longitude: 120.202546)), HistoricSiteDestination(name: "Confucius Temple", location: CLLocationCoordinate2D(latitude: 22.990467, longitude: 120.204307)), HistoricSiteDestination(name: "Grand Matsu Temple", location: CLLocationCoordinate2D(latitude: 22.996678, longitude: 120.201542)), HistoricSiteDestination(name: "Temple of the Five Concubines", location: CLLocationCoordinate2D(latitude: 22.9816674, longitude: 120.204516)), HistoricSiteDestination(name: "Zheng Chenggong Shrine", location: CLLocationCoordinate2D(latitude: 22.987819, longitude: 120.207764)), HistoricSiteDestination(name: "Anping Old Fort", location: CLLocationCoordinate2D(latitude: 23.001549, longitude: 120.160624)), HistoricSiteDestination(name: "Eternal Golden Castle", location: CLLocationCoordinate2D(latitude: 22.987932, longitude: 120.159244))]
-    var siteImages: [UIImage] = [UIImage(named:"cktower1")!, UIImage(named:"ctemple")!, UIImage(named:"matsu")!, UIImage(named:"wufei")!, UIImage(named:"chengshrine")!, UIImage(named:"anping")!, UIImage(named:"goldcastle")!]
+    
+    var siteArray = [HistoricSiteDestination(name: "Chikan Tower", location: CLLocationCoordinate2D(latitude: 22.997484, longitude: 120.202546), imageArray: Constants().ckImages), HistoricSiteDestination(name: "Confucius Temple", location: CLLocationCoordinate2D(latitude: 22.990467, longitude: 120.204307), imageArray: Constants().ctImages), HistoricSiteDestination(name: "Grand Matsu Temple", location: CLLocationCoordinate2D(latitude: 22.996678, longitude: 120.201542), imageArray: Constants().gmImages), HistoricSiteDestination(name: "Wufei Temple", location: CLLocationCoordinate2D(latitude: 22.9816674, longitude: 120.204516), imageArray: Constants().fiveImages), HistoricSiteDestination(name: "Zheng Chenggong Shrine", location: CLLocationCoordinate2D(latitude: 22.987819, longitude: 120.207764), imageArray: Constants().zhengImages), HistoricSiteDestination(name: "Anping Old Fort", location: CLLocationCoordinate2D(latitude: 23.001549, longitude: 120.160624), imageArray: Constants().anpingImages), HistoricSiteDestination(name: "Eternal Golden Castle", location: CLLocationCoordinate2D(latitude: 22.987932, longitude: 120.159244), imageArray: Constants().goldImages)]
+    
     var selectedIndexPath: IndexPath?
     let cellHeight:CGFloat = 280
     
@@ -25,12 +27,10 @@ class HistoricSiteTableViewController: UIViewController, UITableViewDelegate, UI
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        navigationItem.title = "Tainan Historic Tour"
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,15 +49,26 @@ class HistoricSiteTableViewController: UIViewController, UITableViewDelegate, UI
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "historicSiteTableCell", for: indexPath) as? HistoricSiteTableCell {
-            cell.siteImage.image = siteImages[indexPath.row]
+            cell.siteImage.image = siteArray[indexPath.row].imageArray[0]
             cell.siteName.text = siteArray[indexPath.row].name
             return cell
         } else {
             return UITableViewCell()
         }
     }
-
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedIndexPath = indexPath
+        performSegue(withIdentifier: "historicToInfoSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? HistoricSiteInfoViewController {
+            vc.currSite = siteArray[(selectedIndexPath?.row)!]
+            vc.selectedIndex = selectedIndexPath?.row
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

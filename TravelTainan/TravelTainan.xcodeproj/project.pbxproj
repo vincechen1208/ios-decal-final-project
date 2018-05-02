@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B9E62316EBBAFA33A7EF315 /* libPods-TravelTainan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */; };
+		AB0AEB1E208D7EDA00DAD757 /* HistoricSiteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AEB1D208D7EDA00DAD757 /* HistoricSiteInfoViewController.swift */; };
 		AB2420672086B1B900A8C18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420662086B1B900A8C18F /* AppDelegate.swift */; };
 		AB2420692086B1B900A8C18F /* HistoricTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */; };
 		AB24206C2086B1B900A8C18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB24206A2086B1B900A8C18F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		AB2420872086B1BA00A8C18F /* TravelTainanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2420862086B1BA00A8C18F /* TravelTainanUITests.swift */; };
 		AB2420952086B4B200A8C18F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB2420942086B4B200A8C18F /* Podfile */; };
 		AB736A71208AEDBE00ED191B /* HistoricSiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */; };
+		ABB4576F209900820085FAB5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4576E209900820085FAB5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		A5F24A7BF1D21BF357BA9AD4 /* Pods-TravelTainan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTainan.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan.release.xcconfig"; sourceTree = "<group>"; };
+		AB0AEB1D208D7EDA00DAD757 /* HistoricSiteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricSiteInfoViewController.swift; sourceTree = "<group>"; };
 		AB2420632086B1B900A8C18F /* TravelTainan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTainan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2420662086B1B900A8C18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricTourViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		AB2420882086B1BA00A8C18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2420942086B4B200A8C18F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoricSiteTableViewController.swift; path = "/Users/ashley/Desktop/CokeChen/iOSDecal/ios-decal-final-project/TravelTainan/TravelTainan/HistoricSiteTableViewController.swift"; sourceTree = "<absolute>"; };
+		ABB4576E209900820085FAB5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9CF028F2E472FB019A80845 /* libPods-TravelTainan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelTainan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19FD30FF9E08B93947FE2F1 /* Pods-TravelTainan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTainan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTainan/Pods-TravelTainan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +124,8 @@
 				AB2420662086B1B900A8C18F /* AppDelegate.swift */,
 				AB2420682086B1B900A8C18F /* HistoricTourViewController.swift */,
 				AB736A70208AEDBE00ED191B /* HistoricSiteTableViewController.swift */,
+				ABB4576E209900820085FAB5 /* Constants.swift */,
+				AB0AEB1D208D7EDA00DAD757 /* HistoricSiteInfoViewController.swift */,
 				AB24206A2086B1B900A8C18F /* Main.storyboard */,
 				AB24206D2086B1B900A8C18F /* Assets.xcassets */,
 				AB24206F2086B1B900A8C18F /* LaunchScreen.storyboard */,
@@ -333,6 +339,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4576F209900820085FAB5 /* Constants.swift in Sources */,
+				AB0AEB1E208D7EDA00DAD757 /* HistoricSiteInfoViewController.swift in Sources */,
 				AB736A71208AEDBE00ED191B /* HistoricSiteTableViewController.swift in Sources */,
 				AB2420692086B1B900A8C18F /* HistoricTourViewController.swift in Sources */,
 				AB2420672086B1B900A8C18F /* AppDelegate.swift in Sources */,
